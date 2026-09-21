@@ -69,7 +69,7 @@ jobs:
         CODACY_PROJECT_TOKEN: ${{ secrets.CODACY_PROJECT_TOKEN }}
 
     - name: Check outdated dependencies
-      run: pip -m list --outdated
+      run: python -m pip list --outdated
 
 
     
